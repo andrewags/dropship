@@ -2,7 +2,7 @@
   "name": "dropship",
   "private": true,
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://starlit-jalebi-4f6b25.netlify.app",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --base=./",
