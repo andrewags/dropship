@@ -2,14 +2,19 @@
   "name": "dropship",
   "private": true,
   "version": "0.0.0",
+  "homepage": "",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --host",
+    "build": "vite build --base=./",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "sass": "^1.51.0",
+    "sass-math": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
