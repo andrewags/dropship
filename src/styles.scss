@@ -1,0 +1,27 @@
+.alignr{
+    text-align: right;
+}
+
+.social{
+    position: relative;
+   
+}
+
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    transform: scale(.2);
+}
+
+.facebook{
+    transform: scale(.2);
+}
+
+
+.instagram:hover{
+    transform: scale(.3);
+}
+.facebook:hover{
+    transform: scale(.3);
+}
